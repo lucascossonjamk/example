@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private int m_health;
     private LevelController m_levelController;
     private bool m_gameOver = false;
-    private int m_projectileAmount = 20;
+    private int m_projectileAmount = 30;
     private Stack<Projectile> m_inactiveProjectiles;
     private List<Projectile> m_activeProjectiles;
 
