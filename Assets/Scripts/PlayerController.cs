@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     public void InitPlayer(LevelController gameOver)
     {
-        m_gameOver = gameOver;
+        m_levelController = gameOver;
         InitProjectiles();
     }
 
